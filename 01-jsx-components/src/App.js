@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import React from 'react';
+import { Footer } from './components';
 
 function App() {
   const element = <h1>Hello, my name is Henrique Jofre</h1>;
@@ -35,6 +36,8 @@ function App() {
       <div>
         <h1>This is a second element</h1>
       </div>
+
+      <Footer />
     </>
   );
 }
