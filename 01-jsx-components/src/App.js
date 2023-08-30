@@ -37,7 +37,7 @@ function App() {
         <h1>This is a second element</h1>
       </div>
 
-      <Footer />
+      <Footer name={"Footer"} text={"This is my first component, Footer Component!"} />
     </>
   );
 }

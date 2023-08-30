@@ -1,6 +1,11 @@
-function Footer(){
+function Footer(props){
+    // { name, text }
+    // props
     return (
-        <h1>This is my first component, Footer Component!</h1>
+        <>
+            <h1>The name of component is {props.name} - ReactJS Course</h1>
+            <p>{props.text}</p>
+        </>
     );
 }
 
