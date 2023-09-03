@@ -1,6 +1,6 @@
-import logo from './logo.svg';
+//import logo from './logo.svg';
 import './App.css';
-import { Select, Input } from './components';
+import { Select, Input, Products } from './components';
 
 function App() {
   return (
@@ -21,6 +21,7 @@ function App() {
       </header> */}
       <Select />
       <Input />
+      <Products />
     </div>
   );
 }
