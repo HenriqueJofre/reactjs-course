@@ -1,6 +1,6 @@
 //import logo from './logo.svg';
 import './App.css';
-import { Select, Input, Products } from './components';
+import { Select, Input, Products, Count, Calc } from './components';
 
 function App() {
   return (
@@ -18,10 +18,17 @@ function App() {
         >
           Learn React
         </a>
-      </header> */}
+      </header>
       <Select />
       <Input />
-      <Products />
+      <Products /> */}
+      <Count />
+      <Calc data={[
+        {value: 1},
+        {value: 2},
+        {value: 3},
+        {value: 4},
+        {value: 5}]}/>
     </div>
   );
 }
